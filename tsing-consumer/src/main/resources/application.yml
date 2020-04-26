@@ -1,0 +1,7 @@
+server:
+  port: 8880
+dubbo:
+  application:
+    name: tsing-consumer
+  registry:
+    address: zookeeper://192.168.89.177:2181
